@@ -509,6 +509,7 @@ img {
 
 .skills__bar {
   background-color: var(--first-color-lighter);
+  overflow: hidden;
 }
 
 .skills__percentage {
@@ -517,7 +518,7 @@ img {
 }
 
 .skills__html {
-  width: 90%;
+  width: 80%;
 }
 
 .skills__css {
@@ -525,43 +526,35 @@ img {
 }
 
 .skills__js {
+  width: 40%;
+}
+
+.skills__figma {
   width: 60%;
 }
 
-.skills__wordpress {
+.skills__php {
   width: 70%;
 }
 
-.skills__python {
-  width: 60%;
-}
-
-.skills__tab {
-  width: 70%;
+.skills__nodejs {
+  width: 40%;
 }
 
 .skills__sql {
-  width: 50%;
-}
-
-.skills__google {
   width: 70%;
 }
 
-.skills__bank {
+.skills__nextjs {
+  width: 40%;
+}
+
+.skills__python {
   width: 80%;
 }
 
-.skills__google {
+.skills__codeigniter {
   width: 70%;
-}
-
-.skills__counter {
-  width: 80%;
-}
-
-.skills__office {
-  width: 90%;
 }
 
 .skills__close .skills__list {
